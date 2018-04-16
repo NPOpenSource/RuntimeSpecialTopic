@@ -815,7 +815,7 @@ struct class_rw_t {
 
 
 struct class_data_bits_t {
-
+   
     // Values are the FAST_ flags above.
     uintptr_t bits;
 private:

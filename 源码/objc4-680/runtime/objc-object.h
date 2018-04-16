@@ -148,6 +148,7 @@ objc_object::initIsa(Class cls, bool indexed, bool hasCxxDtor)
         // isa.indexed is part of ISA_MAGIC_VALUE
         isa.has_cxx_dtor = hasCxxDtor;
         isa.shiftcls = (uintptr_t)cls >> 3;
+        
     }
 }
 
