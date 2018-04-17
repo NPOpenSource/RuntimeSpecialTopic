@@ -626,7 +626,7 @@ LNilTestSlow:
 .if $0 == STRET
 	movq	%rdi, %rax
 .else
-	xorl	%eax, %eax
+	xorl	%x, %eax
 	xorl	%edx, %edx
 	xorps	%xmm0, %xmm0
 	xorps	%xmm1, %xmm1

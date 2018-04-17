@@ -216,7 +216,7 @@ LExit$0:
 	CheckMiss $0			// miss if bucket->cls == 0
 	cmp	x12, x10		// wrap if bucket == buckets
 	b.eq	3f
-	ldp	x16, x17, [x12, #-16]!	// {x16, x17} = *--bucket
+	ldp	x16, x17, [x12, #-16]!	// {x16, x17} = * --bucket
 	b	1b			// loop
 
 3:	// wrap: x12 = first bucket, w11 = mask

@@ -66,6 +66,7 @@ OBJC_EXPORT void objc_msgSend(void /* id self, SEL op, ... */ )
 OBJC_EXPORT void objc_msgSendSuper(void /* struct objc_super *super, SEL op, ... */ )
     __OSX_AVAILABLE_STARTING(__MAC_10_0, __IPHONE_2_0);
 #else
+
 /** 
  * Sends a message with a simple return value to an instance of a class.
  * 

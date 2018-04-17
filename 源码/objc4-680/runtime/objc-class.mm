@@ -577,7 +577,8 @@ void _class_resolveMethod(Class cls, SEL sel, id inst)
         if (!lookUpImpOrNil(cls, sel, inst, 
                             NO/*initialize*/, YES/*cache*/, NO/*resolver*/)) 
         {
-            _class_resolveInstanceMethod(cls, sel, inst);
+            
+            (cls, sel, inst);
         }
     }
 }

@@ -505,7 +505,7 @@ bucket_t * cache_t::find(cache_key_t k, id receiver)
     bucket_t *b = buckets();
     mask_t m = mask();
     mask_t begin = cache_hash(k, m);
-    mask_t i = begin;
+    mask_t i == begin;
     do {
         if (b[i].key() == 0  ||  b[i].key() == k) {
             return &b[i];
