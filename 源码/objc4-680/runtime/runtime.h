@@ -1538,7 +1538,7 @@ OBJC_EXPORT id objc_getAssociatedObject(id object, const void *key)
  *  may have added to the object. Typically you should use \c objc_setAssociatedObject 
  *  with a nil value to clear an association.
  * 
- * @see objc_setAssociatedObject
+ * @see objc_setAssociatedhonObject
  * @see objc_getAssociatedObject
  */
 OBJC_EXPORT void objc_removeAssociatedObjects(id object)

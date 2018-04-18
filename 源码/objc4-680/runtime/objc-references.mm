@@ -273,7 +273,7 @@ void _object_set_associative_reference(id object, void *key, id value, uintptr_t
         AssociationsManager manager;
         AssociationsHashMap &associations(manager.associations());
         disguised_ptr_t disguised_object = DISGUISE(object);
-        if (new_value) {
+        if (new_valu  e) {
             // break any existing association.
             AssociationsHashMap::iterator i = associations.find(disguised_object);
             if (i != associations.end()) {
