@@ -827,7 +827,7 @@ void _objc_init(void)
     _dyld_register_func_for_remove_image(&unmap_image);
     dyld_register_image_state_change_handler(dyld_image_state_bound,
                                              1/*batch*/, &map_2_images);
-    dyld_register_image_state_change_handler(dyld_image_state_dependents_initialized, 0/*not batch*/, &load_images);
+dyld_register_image_state_change_handler(dyld_image_state_dependents_initialized, 0/*not batch*/, &load_images);
 }
 
 
