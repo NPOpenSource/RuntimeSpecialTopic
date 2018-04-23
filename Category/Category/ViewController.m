@@ -16,6 +16,10 @@
 
 @implementation ViewController
 
++(void)load{
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     Class  currentClass=  [CategoryObject class];

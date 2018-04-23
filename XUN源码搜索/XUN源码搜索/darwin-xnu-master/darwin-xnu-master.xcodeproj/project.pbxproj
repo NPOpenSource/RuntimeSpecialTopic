@@ -1,0 +1,178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		65FC578D208DADE300D1988A /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
+		65FC578E208DADE300D1988A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		65FC578F208DADE300D1988A /* libsa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libsa; sourceTree = "<group>"; };
+		65FC5790208DADE300D1988A /* APPLE_LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = APPLE_LICENSE; sourceTree = "<group>"; };
+		65FC5791208DADE300D1988A /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
+		65FC5792208DADE300D1988A /* security */ = {isa = PBXFileReference; lastKnownFileType = folder; path = security; sourceTree = "<group>"; };
+		65FC5793208DADE300D1988A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		65FC5794208DADE300D1988A /* iokit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iokit; sourceTree = "<group>"; };
+		65FC5795208DADE300D1988A /* SETUP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SETUP; sourceTree = "<group>"; };
+		65FC5796208DADE300D1988A /* bsd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bsd; sourceTree = "<group>"; };
+		65FC5797208DADE300D1988A /* EXTERNAL_HEADERS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EXTERNAL_HEADERS; sourceTree = "<group>"; };
+		65FC5798208DADE300D1988A /* libsyscall */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libsyscall; sourceTree = "<group>"; };
+		65FC5799208DADE300D1988A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		65FC579A208DADE300D1988A /* makedefs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = makedefs; sourceTree = "<group>"; };
+		65FC579B208DADE300D1988A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		65FC579C208DADE300D1988A /* .clang-format */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".clang-format"; sourceTree = "<group>"; };
+		65FC579D208DADE300D1988A /* pexpert */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pexpert; sourceTree = "<group>"; };
+		65FC579E208DADE300D1988A /* san */ = {isa = PBXFileReference; lastKnownFileType = folder; path = san; sourceTree = "<group>"; };
+		65FC579F208DADE300D1988A /* libkdd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libkdd; sourceTree = "<group>"; };
+		65FC57A0208DADE300D1988A /* osfmk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = osfmk; sourceTree = "<group>"; };
+		65FC57A1208DADE300D1988A /* libkern */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libkern; sourceTree = "<group>"; };
+		65FC57A2208DADE300D1988A /* .upstream_base_commits */ = {isa = PBXFileReference; lastKnownFileType = text; path = .upstream_base_commits; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		65FC5787208DADE300D1988A = {
+			isa = PBXGroup;
+			children = (
+				65FC578D208DADE300D1988A /* tools */,
+				65FC578E208DADE300D1988A /* LICENSE */,
+				65FC578F208DADE300D1988A /* libsa */,
+				65FC5790208DADE300D1988A /* APPLE_LICENSE */,
+				65FC5791208DADE300D1988A /* config */,
+				65FC5792208DADE300D1988A /* security */,
+				65FC5793208DADE300D1988A /* Makefile */,
+				65FC5794208DADE300D1988A /* iokit */,
+				65FC5795208DADE300D1988A /* SETUP */,
+				65FC5796208DADE300D1988A /* bsd */,
+				65FC5797208DADE300D1988A /* EXTERNAL_HEADERS */,
+				65FC5798208DADE300D1988A /* libsyscall */,
+				65FC5799208DADE300D1988A /* README.md */,
+				65FC579A208DADE300D1988A /* makedefs */,
+				65FC579B208DADE300D1988A /* .gitignore */,
+				65FC579C208DADE300D1988A /* .clang-format */,
+				65FC579D208DADE300D1988A /* pexpert */,
+				65FC579E208DADE300D1988A /* san */,
+				65FC579F208DADE300D1988A /* libkdd */,
+				65FC57A0208DADE300D1988A /* osfmk */,
+				65FC57A1208DADE300D1988A /* libkern */,
+				65FC57A2208DADE300D1988A /* .upstream_base_commits */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		65FC578C208DADE300D1988A /* darwin-xnu-master */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 65FC57A3208DADE300D1988A /* Build configuration list for PBXLegacyTarget "darwin-xnu-master" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/yangfangkuo1/Downloads/darwin-xnu-master";
+			dependencies = (
+			);
+			name = "darwin-xnu-master";
+			passBuildSettingsInEnvironment = 1;
+			productName = "darwin-xnu-master";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		65FC5788208DADE300D1988A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 65FC578B208DADE300D1988A /* Build configuration list for PBXProject "darwin-xnu-master" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65FC5787208DADE300D1988A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FC578C208DADE300D1988A /* darwin-xnu-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		65FC5789208DADE300D1988A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		65FC578A208DADE300D1988A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		65FC57A4208DADE300D1988A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "darwin-xnu-master";
+			};
+			name = Debug;
+		};
+		65FC57A5208DADE300D1988A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "darwin-xnu-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FC578B208DADE300D1988A /* Build configuration list for PBXProject "darwin-xnu-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC5789208DADE300D1988A /* Debug */,
+				65FC578A208DADE300D1988A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC57A3208DADE300D1988A /* Build configuration list for PBXLegacyTarget "darwin-xnu-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC57A4208DADE300D1988A /* Debug */,
+				65FC57A5208DADE300D1988A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FC5788208DADE300D1988A /* Project object */;
+}

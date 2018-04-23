@@ -7,12 +7,16 @@
 //
 
 #import "ViewController.h"
-
+#import <mach-o/loader.h>
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
++(void)load{
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
